@@ -4,11 +4,18 @@
         <loc>https://basemax.github.io/MindGarage/</loc>
     </url>
     <url>
-        <loc>https://basemax.github.io/MindGarage/posts/hello-world/</loc>
+        <loc>https://basemax.github.io/MindGarage/hello-world/</loc>
         <lastmod>2025-05-23</lastmod>
     </url>
     <url>
-        <loc>https://basemax.github.io/MindGarage/posts/my-first-post/</loc>
+        <loc>https://basemax.github.io/MindGarage/my-first-post/</loc>
+        <lastmod>2025-05-23</lastmod>
+    </url>
+    <url>
+        <loc>https://basemax.github.io/MindGarage/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://basemax.github.io/MindGarage/pages/about/</loc>
         <lastmod>2025-05-23</lastmod>
     </url>
     <url>
