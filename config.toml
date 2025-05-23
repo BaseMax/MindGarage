@@ -17,7 +17,7 @@ even_title = "تعمیرکار مغز"
 
 even_menu = [
   { name = "خانه", url = "$BASE_URL/" },
-  { name = "دسته بندی‌ها", url = "$BASE_URL/categories/" },
-  { name = "برچسب‌ها", url = "$BASE_URL/tags/" },
+#  { name = "دسته بندی‌ها", url = "$BASE_URL/categories/" },
+#  { name = "برچسب‌ها", url = "$BASE_URL/tags/" },
   { name = "درباره‌ما", url = "$BASE_URL/pages/about/" }
 ]
