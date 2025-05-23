@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  ZOLA_VERSION: v0.20.0
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -14,11 +17,23 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Download Zola v0.20.0
+      - name: Cache Zola binary
+        uses: actions/cache@v3
+        id: zola-cache
+        with:
+          path: ~/.zola
+          key: zola-${{ env.ZOLA_VERSION }}
+
+      - name: Setup Zola
         run: |
-          curl -L https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz -o zola.tar.gz
-          tar -xzf zola.tar.gz
-          sudo mv zola /usr/local/bin/zola
+          if [ ! -f ~/.zola/zola ]; then
+            curl -L https://github.com/getzola/zola/releases/download/${ZOLA_VERSION}/zola-${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz -o zola.tar.gz
+            tar -xzf zola.tar.gz
+            mkdir -p ~/.zola
+            mv zola ~/.zola/
+          fi
+          sudo ln -sf ~/.zola/zola /usr/local/bin/zola
+          zola --version
 
       - name: Build site
         run: zola build
