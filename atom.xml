@@ -20,10 +20,30 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://basemax.github.io/MindGarage/blog/hello-world/"/>
-        <id>https://basemax.github.io/MindGarage/blog/hello-world/</id>
+        <link rel="alternate" type="text/html" href="https://basemax.github.io/MindGarage/posts/hello-world/"/>
+        <id>https://basemax.github.io/MindGarage/posts/hello-world/</id>
         
-        <content type="html" xml:base="https://basemax.github.io/MindGarage/blog/hello-world/">&lt;p&gt;Welcome to &lt;strong&gt;MindGarage&lt;&#x2F;strong&gt;, where we repair thoughts, not engines.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://basemax.github.io/MindGarage/posts/hello-world/">&lt;p&gt;Welcome to &lt;strong&gt;MindGarage&lt;&#x2F;strong&gt;, where we repair thoughts, not engines.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My First Post</title>
+        <published>2025-05-23T00:00:00+00:00</published>
+        <updated>2025-05-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://basemax.github.io/MindGarage/posts/my-first-post/"/>
+        <id>https://basemax.github.io/MindGarage/posts/my-first-post/</id>
+        
+        <content type="html" xml:base="https://basemax.github.io/MindGarage/posts/my-first-post/">&lt;p&gt;Hello, this is my first blog post!&lt;&#x2F;p&gt;
 </content>
         
     </entry>
