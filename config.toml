@@ -1,14 +1,23 @@
 base_url = "https://basemax.github.io/MindGarage"
-title = "MindGarage"
+title = "تعمیرکار مغز"
 description = "A clean and minimal blog about fixing the mind."
-default_language = "en"
+default_language = "fa-IR"
 theme = "even"
 compile_sass = false
 minify_html = true
 generate_feeds = true
 feed_limit = 20
-
 taxonomies = [{ name = "tags" }]
 
 [markdown]
 highlight_code = true
+
+[extra]
+even_title = "تعمیرکار مغز"
+
+even_menu = [
+  { name = "خانه", url = "$BASE_URL/" },
+  { name = "دسته بندی‌ها", url = "$BASE_URL/categories/" },
+  { name = "برچسب‌ها", url = "$BASE_URL/tags/" },
+  { name = "درباره‌ما", url = "$BASE_URL/pages/about/" }
+]

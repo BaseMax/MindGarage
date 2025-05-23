@@ -1,3 +1,5 @@
 /public
 /.sass-cache
 /.zola-cache
+# /themes
+# /themes/even
