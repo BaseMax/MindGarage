@@ -1,4 +1,4 @@
-# MindGarage (تعمیرکار معز)
+# MindGarage Blog (تعمیرکار معز)
 
 [![Deploy to GitHub Pages](https://github.com/BaseMax/MindGarage/actions/workflows/deploy.yml/badge.svg)](https://github.com/BaseMax/MindGarage/actions)
 
