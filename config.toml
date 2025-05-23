@@ -5,8 +5,9 @@ default_language = "en"
 theme = "even"
 compile_sass = false
 minify_html = true
-generate_rss = true
-rss_limit = 20
+generate_feeds = true
+feed_limit = 20
+
 taxonomies = [{ name = "tags" }]
 
 [markdown]
