@@ -57,6 +57,7 @@ MindGarage/
 ├── telegram2blogmd.py  # Optional: your Telegram-to-blog converter
 └── .github/workflows/
     └── deploy.yml      # GitHub Actions deployment script
+```
 
 ## 📄 License
 
