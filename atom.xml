@@ -8,26 +8,6 @@
     <updated>2025-05-23T00:00:00+00:00</updated>
     <id>https://basemax.github.io/MindGarage/atom.xml</id>
     <entry xml:lang="fa-IR">
-        <title>Hello World</title>
-        <published>2025-05-23T00:00:00+00:00</published>
-        <updated>2025-05-23T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://basemax.github.io/MindGarage/hello-world/"/>
-        <id>https://basemax.github.io/MindGarage/hello-world/</id>
-        
-        <content type="html" xml:base="https://basemax.github.io/MindGarage/hello-world/">&lt;p&gt;Welcome to &lt;strong&gt;MindGarage&lt;&#x2F;strong&gt;, where we repair thoughts, not engines.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="fa-IR">
         <title>About</title>
         <published>2025-05-23T00:00:00+00:00</published>
         <updated>2025-05-23T00:00:00+00:00</updated>
