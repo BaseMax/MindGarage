@@ -9,8 +9,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout code with submodules
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - name: Download Zola v0.20.0
         run: |
